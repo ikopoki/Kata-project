@@ -1,31 +1,44 @@
 @font-face {
-    font-family:"TTLakes";
+    font-family:"TTLakes-normal";
     src: url(../fonts/TTLakes-Black.ttf) format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 
 @font-face {
-    font-family:"TTLakes";
+    font-family:"TTLakes-bold";
     src: url(../fonts/TTLakes-Bold.ttf) format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 
 @font-face {
-    font-family:"TTLakes";
+    font-family:"TTLakes-italic";
     src: url(../fonts/TTLakes-BlackItalic.ttf) format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 
 @font-face {
-    font-family:"TTLakes";
+    font-family:"TTLakes-bold-italic";
     src: url(../fonts/TTLakes-BoldItalic.ttf) format("truetype");
     font-style: normal; 
     font-weight: normal; 
 }
 
+@font-face {
+    font-family: 'TTLakes-regular';
+    src: url(../fonts/TTLakesCompressed-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "TTLakes-medium";
+    src: url(../fonts/TTLakes-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
 
 @media (min-width: 769px) {
     button{
@@ -196,7 +209,7 @@
     
     .main-info__title{
         color: #1B1C21;
-        font-family: TTLakes;
+        font-family: TTLakes-bold;
         font-size: 28px;
         font-style: none;
         font-weight: 700;
@@ -225,7 +238,7 @@
           flex: 0 0 auto; 
           padding: 10px;
           white-space: nowrap;
-        font-family: TTLakes;
+        font-family: TTLakes-medium;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -269,7 +282,7 @@
     .main-info__read-next{
         margin-left: 24px;
         color: #1B1C21;
-        font-family: TTLakes;
+        font-family: TTLakes-medium;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -314,7 +327,15 @@
         margin-right: 32px;
         margin-top: -50px;
         display: flex;
-        justify-content: flex-end ;
+        justify-content: flex-end;
+        color: #1B1C21;
+        text-align: right;
+        font-family: TTLakes-medium;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.2px;
     }
 
     .main-info__repair-pc img{
@@ -336,7 +357,14 @@
         margin-right: 32px;
         margin-top: -50px;
         display: flex;
-        justify-content: flex-end ;
+        justify-content: flex-end;
+        color: #1B1C21;
+        font-family: TTLakes-medium;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: -0.2px;
     }
 
     .main-info__checkstatus-pc img {
@@ -357,7 +385,7 @@
 
     .main-info__about-pc{
         color: #1B1C21;
-    font-family: TTLakes;
+    font-family: TTLakes-medium;
     font-size: 14px;
     font-style: none;
     font-weight: 400;
