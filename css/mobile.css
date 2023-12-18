@@ -195,12 +195,20 @@ main{
     letter-spacing: -0.2px;
 }
 
-.main-info__photo{
+.main-info__photo_tablet{
+    display: none;
+}
+
+.main-info__photo_pc{
+    display: none;
+}
+
+.main-info__photo_mobile{
     margin-top: 16px;
     margin-bottom: 35px;
 }
 
-.main-info__photo img{
+.main-info__photo_mobile img{
     width: 100%;
 }
 
