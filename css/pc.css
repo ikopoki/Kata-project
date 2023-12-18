@@ -1,3 +1,44 @@
+@font-face {
+    font-family:"TTLakes-normal";
+    src: url(../fonts/TTLakes-Black.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family:"TTLakes-bold";
+    src: url(../fonts/TTLakes-Bold.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family:"TTLakes-italic";
+    src: url(../fonts/TTLakes-BlackItalic.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family:"TTLakes-bold-italic";
+    src: url(../fonts/TTLakes-BoldItalic.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: 'TTLakes-regular';
+    src: url(../fonts/TTLakesCompressed-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "TTLakes-medium";
+    src: url(../fonts/TTLakes-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
 
 @media (min-width: 769px) {
     button{
