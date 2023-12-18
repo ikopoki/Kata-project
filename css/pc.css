@@ -264,14 +264,6 @@
         border: 2px solid #B8FFEC;
         background: #FFF;
     }
-    
-    .main-info__about-tablet{
-        display: none;
-    }
-    
-    .main-info__about{
-        display: none;
-    }
 
     main{
         background: #F8F8F8;
@@ -406,6 +398,14 @@
         height: 160px;
         margin-left: 35px;
         margin-top: 60px;
+    }
+
+    .main-info__about-tablet{
+        display: none;
+    }
+    
+    .main-info__about{
+        display: none;
     }
 
 }

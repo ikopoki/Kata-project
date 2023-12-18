@@ -1,13 +1,48 @@
 
-@media (max-width: 320px) {
+@font-face {
+    font-family:"TTLakes-normal";
+    src: url(../fonts/TTLakes-Black.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
 
-    @font-face {
-        font-family:"TTLakes";
-        src: url(../fonts/TTLakes-Black.ttf) format("truetype");
-        font-style: normal; 
-        font-weight: normal; 
-    }
-    
+@font-face {
+    font-family:"TTLakes-bold";
+    src: url(../fonts/TTLakes-Bold.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family:"TTLakes-italic";
+    src: url(../fonts/TTLakes-BlackItalic.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family:"TTLakes-bold-italic";
+    src: url(../fonts/TTLakes-BoldItalic.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: 'TTLakes-regular';
+    src: url(../fonts/TTLakesCompressed-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "TTLakes-medium";
+    src: url(../fonts/TTLakes-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@media (max-width: 320px) {
 
 button{
     border:0;
@@ -111,7 +146,7 @@ button{
 
 .main-info__title{
     color: #1B1C21;
-    font-family: TTLakes;
+    font-family: TTLakes-bold;
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
@@ -139,7 +174,7 @@ button{
       flex: 0 0 auto; 
       padding: 10px;
       white-space: nowrap;
-    font-family: TTLakes;
+    font-family: TTLakes-medium;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -171,7 +206,7 @@ button{
     margin-right: 16px;
     margin-left: 16px;
     color: #1B1C21;
-    font-family: TTLakes;
+    font-family: TTLakes-medium;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -187,7 +222,7 @@ main{
 .main-info__read-next{
     margin-left: 12px;
     color: #1B1C21;
-    font-family: TTLakes;
+    font-family: TTLakes-medium;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -213,6 +248,10 @@ main{
 }
 
 .main-info__about-tablet{
+    display: none;
+}
+
+.main-info__about-pc{
     display: none;
 }
 
