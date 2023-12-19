@@ -306,15 +306,15 @@
         letter-spacing: -0.2px;
     }
     
-    .main-info__photo_pc{
+    .main-info__photo-pc{
         display: none;
     }
 
-    .main-info__photo_mobile{
+    .main-info__photo-mobile{
         display: none;
     }
 
-    .main-info__photo_tablet{
+    .main-info__photo-tablet{
         display: flex;
         border: 1px solid #F8F8F8;
         margin-top: 16px;

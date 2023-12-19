@@ -230,15 +230,15 @@ main{
     letter-spacing: -0.2px;
 }
 
-.main-info__photo_tablet{
+.main-info__photo-tablet{
     display: none;
 }
 
-.main-info__photo_pc{
+.main-info__photo-pc{
     display: none;
 }
 
-.main-info__photo_mobile{
+.main-info__photo-mobile{
     margin-top: 16px;
     margin-bottom: 35px;
 }
