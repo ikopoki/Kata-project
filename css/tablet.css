@@ -253,6 +253,7 @@
         padding: 8px;
         color: #7E7E82;
         margin-bottom: 0;
+        text-decoration: none;
     }
     
     .main-info__slider div:checked{
@@ -296,6 +297,7 @@
     }
     
     .main-info__read-next{
+        display:flex;
         margin-left: 24px;
         color: #1B1C21;
         font-family: TTLakes-medium;
@@ -304,8 +306,9 @@
         font-weight: 500;
         line-height: 24px; /* 150% */
         letter-spacing: -0.2px;
+        text-decoration: none;
     }
-    
+
     .main-info__photo-pc{
         display: none;
     }
