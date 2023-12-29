@@ -280,4 +280,8 @@ main{
 }
 
 
+.container{
+    max-width: 1121px;
+}
+
 }
