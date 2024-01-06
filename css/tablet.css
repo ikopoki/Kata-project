@@ -293,7 +293,7 @@
     main{
         background: #F8F8F8;
         width: 100%;
-        min-height:504px;
+        min-height:550px;
     }
     
     .main-info__read-next{
@@ -359,6 +359,19 @@
 
     .container{
         max-width: 1121px;
+    }
+
+    @media (min-width:321px) and (max-width:724px) {
+        
+        .main-info__photo-tablet{
+            position: absolute;
+            top: 420px;
+        }
+
+        .page-nav__call{
+            padding-left: 1%;
+        }
+
     }
 
 }
