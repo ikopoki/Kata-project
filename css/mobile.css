@@ -63,7 +63,9 @@ button{
 
 .page-nav__more button{
     padding:0;
-
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: white;
 }
 
 .page-nav__more img{
