@@ -217,27 +217,20 @@
         letter-spacing: -0.6px;
         display: flex;
         margin-top: 24px;
-        margin-left: 16px;
+        margin-left: 30px;
         
     }
-    
-    
-    
-        .main-info__slider {
-          display: flex;
-          overflow-x: scroll;
-          -webkit-overflow-scrolling: touch;
-          margin-left: 14px;
-        }
-        
-        .main-info__slider::-webkit-scrollbar {
-          display: none; 
-        }
+       .main-info__slider{
+        display: flex;
+        margin-left: 18px;
+       } 
+
+
         
         .main-info__slider div {
-          flex: 0 0 auto; 
-          padding: 10px;
-          white-space: nowrap;
+        flex: 0 0 auto; 
+        padding: 10px;
+        white-space: nowrap;
         font-family: 'TTLakes-medium';
         font-size: 16px;
         font-style: normal;
@@ -311,7 +304,9 @@
     }
 
     .container{
+        display: flex;
         padding: 0;
+        flex-wrap: wrap;
     }
 
     .page-nav {
@@ -387,13 +382,18 @@
     }
 
     .main-info__about-pc{
+        margin: 0;
         color: #1B1C21;
-    font-family: 'TTLakes-medium';
-    font-size: 14px;
-    font-style: none;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.2px;
+        font-family: 'TTLakes-medium';
+        font-size: 14px;
+        font-style: none;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        margin-right: 36px;
+        margin-left: 36px;
+        margin-bottom: 14px;
+        margin-top: 20px;
     }
 
     .container{
@@ -411,6 +411,11 @@
 
     .container{
         max-width: 1121px;
+    }
+
+    body{
+        margin: 0;
+        width: 100%;
     }
 
 }
