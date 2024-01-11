@@ -223,26 +223,28 @@
        .main-info__slider{
         display: flex;
         margin-left: 18px;
+        flex-wrap: wrap;
        } 
 
 
         
         .main-info__slider div {
+        display: flex;
         flex: 0 0 auto; 
-        padding: 10px;
         white-space: nowrap;
         font-family: 'TTLakes-medium';
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 24px; /* 150% */
-        letter-spacing: -0.2px;
         }
     
     
     .main-info__slider a{
         padding-top: 8px;
-        padding: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 8px;
         color: #7E7E82;
         margin-bottom: 0;
         text-decoration: none;
